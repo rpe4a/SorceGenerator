@@ -1,0 +1,15 @@
+C:\Users\m_plyusnin\Projects\SANDBOX\SorceGenerator\src\SorceGeneratorLibrary\bin\Release\net6.0\SourceGeneratorLibrary.deps.json
+C:\Users\m_plyusnin\Projects\SANDBOX\SorceGenerator\src\SorceGeneratorLibrary\bin\Release\net6.0\SourceGeneratorLibrary.dll
+C:\Users\m_plyusnin\Projects\SANDBOX\SorceGenerator\src\SorceGeneratorLibrary\bin\Release\net6.0\ref\SourceGeneratorLibrary.dll
+C:\Users\m_plyusnin\Projects\SANDBOX\SorceGenerator\src\SorceGeneratorLibrary\bin\Release\net6.0\SourceGeneratorLibrary.pdb
+C:\Users\m_plyusnin\Projects\SANDBOX\SorceGenerator\src\SorceGeneratorLibrary\obj\Release\net6.0\SourceGeneratorLibrary.csproj.AssemblyReference.cache
+C:\Users\m_plyusnin\Projects\SANDBOX\SorceGenerator\src\SorceGeneratorLibrary\obj\Release\net6.0\SourceGeneratorLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m_plyusnin\Projects\SANDBOX\SorceGenerator\src\SorceGeneratorLibrary\obj\Release\net6.0\SourceGeneratorLibrary.AssemblyInfoInputs.cache
+C:\Users\m_plyusnin\Projects\SANDBOX\SorceGenerator\src\SorceGeneratorLibrary\obj\Release\net6.0\SourceGeneratorLibrary.AssemblyInfo.cs
+C:\Users\m_plyusnin\Projects\SANDBOX\SorceGenerator\src\SorceGeneratorLibrary\obj\Release\net6.0\SourceGeneratorLibrary.csproj.CoreCompileInputs.cache
+C:\Users\m_plyusnin\Projects\SANDBOX\SorceGenerator\src\SorceGeneratorLibrary\obj\Release\net6.0\SourceGeneratorLibrary.dll
+C:\Users\m_plyusnin\Projects\SANDBOX\SorceGenerator\src\SorceGeneratorLibrary\obj\Release\net6.0\ref\SourceGeneratorLibrary.dll
+C:\Users\m_plyusnin\Projects\SANDBOX\SorceGenerator\src\SorceGeneratorLibrary\obj\Release\net6.0\SourceGeneratorLibrary.pdb
+C:\Users\m_plyusnin\Projects\SANDBOX\SorceGenerator\src\SorceGeneratorLibrary\bin\Release\net6.0\SourceGenerator.dll
+C:\Users\m_plyusnin\Projects\SANDBOX\SorceGenerator\src\SorceGeneratorLibrary\bin\Release\net6.0\SourceGenerator.pdb
+C:\Users\m_plyusnin\Projects\SANDBOX\SorceGenerator\src\SorceGeneratorLibrary\obj\Release\net6.0\SourceGeneratorLibrary.csproj.CopyComplete
