@@ -25,7 +25,12 @@
       "ProjectGuid": "9b225c17-78a0-42a9-8c79-f0836691cd89",
       "DisplayName": "DemoSourceGenerator",
       "ColorIndex": 3
+    },
+    "5717c7b4-eda8-40c8-8ddb-239975e5adbd": {
+      "ProjectGuid": "5717c7b4-eda8-40c8-8ddb-239975e5adbd",
+      "DisplayName": "SorceGeneratorTests",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }

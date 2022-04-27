@@ -7,4 +7,3 @@ C:\Users\m_plyusnin\Projects\SANDBOX\SorceGenerator\src\SourceGenerator\obj\Debu
 C:\Users\m_plyusnin\Projects\SANDBOX\SorceGenerator\src\SourceGenerator\obj\Debug\netstandard2.0\SourceGenerator.csproj.CoreCompileInputs.cache
 C:\Users\m_plyusnin\Projects\SANDBOX\SorceGenerator\src\SourceGenerator\obj\Debug\netstandard2.0\SourceGenerator.dll
 C:\Users\m_plyusnin\Projects\SANDBOX\SorceGenerator\src\SourceGenerator\obj\Debug\netstandard2.0\SourceGenerator.pdb
-C:\Users\m_plyusnin\Projects\SANDBOX\SorceGenerator\src\SourceGenerator\obj\Debug\netstandard2.0\SourceGenerator.csproj.AssemblyReference.cache
