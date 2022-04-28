@@ -12,9 +12,11 @@ bin/
 *.user
 packages/
 !packages/repositories.config
-/.vs
+*/.vs
 .vs
 /.vscode
 .vscode/
 *.pubxml
 WG.*.xml
+*/obj/*
+*/bin/*
