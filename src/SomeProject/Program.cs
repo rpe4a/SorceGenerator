@@ -8,6 +8,8 @@ partial class Program
         {
             Console.WriteLine(item.Name);
         }
+
+
     }
 
 }
