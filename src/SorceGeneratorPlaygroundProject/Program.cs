@@ -57,7 +57,57 @@ namespace TopLevel
     static void Main(string[] args)
     {
         //SyntaxTreeManualTraversal();
-        SyntaxWalk();
+        //SyntaxWalk();
+        SemanticQuickStart();
+    }
+
+    private static void SemanticQuickStart()
+    {
+
+        SyntaxTree tree = CSharpSyntaxTree.ParseText(programText);
+
+        CompilationUnitSyntax root = tree.GetCompilationUnitRoot();
+
+        var compilation = CSharpCompilation.Create("HelloWorld")
+            .AddReferences(MetadataReference.CreateFromFile(
+                typeof(string).Assembly.Location))
+            .AddSyntaxTrees(tree);
+
+        var model = compilation.GetSemanticModel(tree);
+
+        // Use the syntax tree to find "using System;"
+        UsingDirectiveSyntax usingSystem = root.Usings[0];
+        NameSyntax systemName = usingSystem.Name;
+
+        // Use the semantic model for symbol information:
+        SymbolInfo nameInfo = model.GetSymbolInfo(systemName);
+
+        var systemSymbol = (INamespaceSymbol)nameInfo.Symbol;
+        foreach (INamespaceSymbol ns in systemSymbol.GetNamespaceMembers())
+        {
+            Console.WriteLine(ns);
+        }
+
+        // Use the syntax model to find the literal string:
+        LiteralExpressionSyntax helloWorldString = root.DescendantNodes()
+            .OfType<LiteralExpressionSyntax>()
+            .Single();
+
+        // Use the semantic model for type information:
+        TypeInfo literalInfo = model.GetTypeInfo(helloWorldString);
+
+        var stringTypeSymbol = (INamedTypeSymbol)literalInfo.Type;
+
+        var allMembers = stringTypeSymbol.GetMembers();
+        var methods = allMembers.OfType<IMethodSymbol>();
+        var publicStringReturningMethods = methods
+            .Where(m => m.ReturnType.Equals(stringTypeSymbol) &&
+                        m.DeclaredAccessibility == Accessibility.Public);
+        var distinctMethods = publicStringReturningMethods.Select(m => m.Name).Distinct();
+        foreach (string name in distinctMethods)
+        {
+            Console.WriteLine(name);
+        }
     }
 
     private static void SyntaxWalk()
